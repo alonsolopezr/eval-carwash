@@ -1,0 +1,7 @@
+C:\Users\David\source\repos\eval-carwash\Code\Carwachito\Carwachito\bin\Debug\Carwachito.exe.config
+C:\Users\David\source\repos\eval-carwash\Code\Carwachito\Carwachito\bin\Debug\Carwachito.exe
+C:\Users\David\source\repos\eval-carwash\Code\Carwachito\Carwachito\bin\Debug\Carwachito.pdb
+C:\Users\David\source\repos\eval-carwash\Code\Carwachito\Carwachito\obj\Debug\Carwachito.csprojAssemblyReference.cache
+C:\Users\David\source\repos\eval-carwash\Code\Carwachito\Carwachito\obj\Debug\Carwachito.csproj.CoreCompileInputs.cache
+C:\Users\David\source\repos\eval-carwash\Code\Carwachito\Carwachito\obj\Debug\Carwachito.exe
+C:\Users\David\source\repos\eval-carwash\Code\Carwachito\Carwachito\obj\Debug\Carwachito.pdb
