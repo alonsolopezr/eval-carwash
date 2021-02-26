@@ -1,0 +1,13 @@
+C:\Users\K\source\repos\eval-carwash\Autolavado\obj\Debug\netcoreapp3.1\Autolavado.csprojAssemblyReference.cache
+C:\Users\K\source\repos\eval-carwash\Autolavado\obj\Debug\netcoreapp3.1\Autolavado.AssemblyInfoInputs.cache
+C:\Users\K\source\repos\eval-carwash\Autolavado\obj\Debug\netcoreapp3.1\Autolavado.AssemblyInfo.cs
+C:\Users\K\source\repos\eval-carwash\Autolavado\obj\Debug\netcoreapp3.1\Autolavado.csproj.CoreCompileInputs.cache
+C:\Users\K\source\repos\eval-carwash\Autolavado\bin\Debug\netcoreapp3.1\Autolavado.exe
+C:\Users\K\source\repos\eval-carwash\Autolavado\bin\Debug\netcoreapp3.1\Autolavado.deps.json
+C:\Users\K\source\repos\eval-carwash\Autolavado\bin\Debug\netcoreapp3.1\Autolavado.runtimeconfig.json
+C:\Users\K\source\repos\eval-carwash\Autolavado\bin\Debug\netcoreapp3.1\Autolavado.runtimeconfig.dev.json
+C:\Users\K\source\repos\eval-carwash\Autolavado\bin\Debug\netcoreapp3.1\Autolavado.dll
+C:\Users\K\source\repos\eval-carwash\Autolavado\bin\Debug\netcoreapp3.1\Autolavado.pdb
+C:\Users\K\source\repos\eval-carwash\Autolavado\obj\Debug\netcoreapp3.1\Autolavado.dll
+C:\Users\K\source\repos\eval-carwash\Autolavado\obj\Debug\netcoreapp3.1\Autolavado.pdb
+C:\Users\K\source\repos\eval-carwash\Autolavado\obj\Debug\netcoreapp3.1\Autolavado.genruntimeconfig.cache
