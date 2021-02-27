@@ -18,7 +18,7 @@ namespace Autolavado.Personas
         public bool Inicio(string lavado)
         {
             
-            for (int i = 0; i < 20; i++)
+            for (int i = 1; i < 20; i++)
             {
                 Console.WriteLine("Bienvenido al autolavado");
                 Console.WriteLine("\nUsted es ¿Cliente o Cajero?");

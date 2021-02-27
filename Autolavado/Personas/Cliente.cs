@@ -21,6 +21,7 @@ namespace Autolavado.Personas
         public void menu()
         {
             
+            
             for (int i = 1; i < 20; i++)
             {
                 Console.WriteLine("Cliente #"+i+" del día. \nBienvenido al Autolavado");
@@ -34,6 +35,14 @@ namespace Autolavado.Personas
                 Console.WriteLine("Número de Celular:");
                 Celular = Console.ReadLine();
                 Console.WriteLine("Bienvenido "+Nombre+" "+Apellidos+", se le cobrará $");
+                Console.WriteLine("Está de acuerdo? s/n");
+                string sioNo = (Console.ReadLine());
+                if (sioNo == ("s"))
+                {
+                    EtapaLavado etapaLavado = new EtapaLavado();
+                    EtapaLavado.menu();
+                }
+                
             }
             
         }

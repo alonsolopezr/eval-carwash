@@ -7,9 +7,14 @@ namespace Autolavado
     class Secado : EtapaLavado
     {
         public int Cliente;
+
+        public Secado()
+        {
+        }
+
         public Secado(int cliente)
         {
-            this.Cliente = cliente;
+            Console.WriteLine("Se está secando el carro");
             return; 
         }
     }

@@ -8,6 +8,11 @@ namespace Autolavado.Personas
     {
 
         private int Cliente;
+
+        public EntregaCarro()
+        {
+        }
+
         public EntregaCarro(int cliente)
         {
             this.Cliente = cliente;

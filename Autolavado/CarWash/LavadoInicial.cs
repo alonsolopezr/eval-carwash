@@ -7,9 +7,14 @@ namespace Autolavado
     class LavadoInicial : EtapaLavado
     {
         public int Cliente;
-        public int empezar;
+        public int Empezar;
+        public LavadoInicial()
+        {
+        }
+
         public LavadoInicial(int cliente) 
         {
+            Console.WriteLine("Se está empezando a lavar el carro");
             this.Cliente = cliente;
         }
 
