@@ -34,7 +34,7 @@ namespace Autolavado.Personas
                 Email = Console.ReadLine();
                 Console.WriteLine("Número de Celular:");
                 Celular = Console.ReadLine();
-                Console.WriteLine("Bienvenido "+Nombre+" "+Apellidos+", se le cobrará $");
+                Console.WriteLine("Bienvenido "+Nombre+" "+Apellidos+", se le cobrará $"); //AGREGAR COBRO
                 Console.WriteLine("Está de acuerdo? s/n");
                 string sioNo = (Console.ReadLine());
                 if (sioNo == ("s"))

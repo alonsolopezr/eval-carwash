@@ -15,7 +15,7 @@ namespace Autolavado.Personas
         List<Cliente> listaLavado = new List<Cliente>();
         List<EtapaLavado> procedimiento = new List<EtapaLavado>();
 
-        public bool Inicio(string lavado)
+        public bool Inicio()
         {
             
             for (int i = 1; i < 20; i++)
