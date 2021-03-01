@@ -15,23 +15,27 @@ namespace Autolavado.Personas
         List<Cliente> listaLavado = new List<Cliente>();
         List<EtapaLavado> procedimiento = new List<EtapaLavado>();
 
-        public bool Inicio()
+        public bool Inicio(string v)
         {
             
             for (int i = 1; i < 20; i++)
             {
-                Console.WriteLine("Bienvenido al autolavado");
+                Console.WriteLine("\nBienvenido al autolavado");
                 Console.WriteLine("\nUsted es ¿Cliente o Cajero?");
-                Console.WriteLine("Si es Cliente ingrese 1:");
-                Console.WriteLine("Si es Cajero ingrese 2:");
+                Console.WriteLine("Si es Cliente ingrese \"1\":");
+                Console.WriteLine("Si es Cajero ingrese \"2\":");
                 string respuestaUsuario = (Console.ReadLine());
                 if (respuestaUsuario == ("1"))
                 {
                     clienteMenu.menu();
                 }
-                if (respuestaUsuario == ("2"))
+                else if (respuestaUsuario == ("2"))
                 {
-                    cajeroMenu.menu();
+                    cajeroMenu.menuCajero();
+                }
+                else
+                {
+                    Console.WriteLine("---Entrada de texto incorrecta, ingrese sólo \"1\" o \"2\"---");
                 }
             }
             

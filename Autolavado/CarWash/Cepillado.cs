@@ -7,16 +7,15 @@ namespace Autolavado
     
     class Cepillado : EtapaLavado
     {
-        public int Cliente;
+
 
         public Cepillado()
         {
         }
 
-        public Cepillado(int cliente) 
+        public void menuCepillado() 
         {
-            Console.WriteLine("Se está cepillando el carro");
-            this.Cliente = cliente;
+            Console.WriteLine("3.- Cepillado de automovil");
         }
     }
 }

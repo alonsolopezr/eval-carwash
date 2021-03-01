@@ -1,29 +1,44 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Autolavado.Personas;
 
-namespace Autolavado
+namespace Autolavado.Personas
 {
     public class Cobrar
     {
-        public string Costo 
+
+        private double precioLavado = 16.25;
+        private double precioShampoo = 16.25;
+        private double precioCepillado = 16.25;
+        private double precioSecado = 16.25;
+
+        public double PrecioLavado
         {
-            get;
-            set;
+            get => precioLavado;
+            set => precioLavado = value;
         }
-        public double Precio 
+        public double PrecioShampoo
         {
-            get;
-            set;
+            get => precioShampoo;
+            set => precioShampoo = value;
+        }
+        public double PrecioCepillado
+        {
+            get => precioCepillado;
+            set => precioCepillado = value;
+        }
+        public double PrecioSecado
+        {
+            get => this.precioSecado;
+            set => precioSecado = value;
         }
 
-        public int Cliente;
-        public Cobrar(string cobro, double precio, int cliente) 
-        {
-            this.Cliente = cliente;
 
-           // this.Costo = cobro;
-           // this.Precio = precio;
+
+        public Cobrar() 
+        { 
+        
         }
     }
 }

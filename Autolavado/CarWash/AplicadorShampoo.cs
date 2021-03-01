@@ -6,16 +6,14 @@ namespace Autolavado
 {
     class AplicadorShampoo : EtapaLavado
     {
-        public int Cliente;
-
         public AplicadorShampoo()
         {
         }
 
-        public AplicadorShampoo(int cliente) 
+        public void menuAplicadorShampoo() 
         {
-            Console.WriteLine("Se está aplicando shampoo para carros");
-            this.Cliente = cliente;
+            Console.WriteLine("2.- Aplicado de shampoo");
+            
         }
     }
 }

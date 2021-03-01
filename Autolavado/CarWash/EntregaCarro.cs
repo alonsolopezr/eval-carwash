@@ -7,15 +7,13 @@ namespace Autolavado.Personas
     public class EntregaCarro : EtapaLavado
     {
 
-        private int Cliente;
-
         public EntregaCarro()
         {
         }
 
-        public EntregaCarro(int cliente)
+        public void menuEntregaCarro()
         {
-            this.Cliente = cliente;
+            Console.WriteLine("-----Automovil lavado y listo para entregar-----");
         }
 
 

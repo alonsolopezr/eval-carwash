@@ -12,9 +12,9 @@ namespace Autolavado
         {
         }
 
-        public Secado(int cliente)
+        public void menuSecado()
         {
-            Console.WriteLine("Se está secando el carro");
+            Console.WriteLine("4.- Secado de automovil");
             return; 
         }
     }

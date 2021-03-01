@@ -9,7 +9,6 @@ namespace Autolavado
         {
             Console.WriteLine("---Evaluación Autolavado---");
 
-            Cajero cajero = new Cajero();
             Proceso proceso = new Proceso();
 
             proceso.Inicio("");
