@@ -52,12 +52,14 @@ namespace Autolavado.Personas
                 //DESPUÉS DE DECIR EL TOTAL DEL COBRO SE PREGUNTA SI ESTA DE ACUERDO
                 Console.WriteLine("\nEstá de acuerdo? s/n");
                 string sioNo = (Console.ReadLine());
-                //SI ESTÁ DE ACUERDO SE INICIA EL LAVADO
+                //SI ESTÁ DE ACUERDO SE INICIA EL LAVADO Y SE IMPRIME TICKET
                 if (sioNo == ("s"))
                 {
                     Console.WriteLine("SE IMPRIME EL TICKET\n");
+                    cajero.menuTicketCliente();
                     EtapaLavado etapaLavado = new EtapaLavado();
                     etapaLavado.menuEtapaLavado();
+                    Console.WriteLine("------------------------------------------------");
                     break;
                     
                 }

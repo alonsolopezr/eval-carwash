@@ -11,9 +11,10 @@ namespace Autolavado.Personas
         {
         }
 
+        
         public void menuEntregaCarro()
         {
-            Console.WriteLine("-----Automovil lavado y listo para entregar-----");
+            Console.WriteLine("-----Automovil lavado y listo para entregar a las "+ DateTime.Now.ToString("hh:mm tt") + "-----");
         }
 
 

@@ -15,8 +15,8 @@ namespace Autolavado
         
         public void menuEtapaLavado() 
         {
-                Console.WriteLine("Comienzo del lavado a las: "+DateTime.Now.ToString("hh:mm tt"));
-                Console.WriteLine("-> Se procederá a lavar el automovil siguiendo este orden: ");
+                Console.WriteLine("Fecha del lavado: "+ DateTime.Now.ToString("MM/dd/yyyy hh:mm tt"));
+                Console.WriteLine("-> El proceso del lavado del automovil se llevó a cabo siguiendo este orden: ");
                 LavadoInicial lavadoInicial = new LavadoInicial();
                 lavadoInicial.menuLavadoInicial();
                 AplicadorShampoo aplicadorShampoo = new AplicadorShampoo();
@@ -25,7 +25,6 @@ namespace Autolavado
                 cepillado.menuCepillado();
                 Secado secado = new Secado();
                 secado.menuSecado();
-                Console.WriteLine("Hora a la que se terminó de lavar: " + DateTime.Now.ToString("hh:mm tt"));
                 EntregaCarro entregaCarro = new EntregaCarro();
                 entregaCarro.menuEntregaCarro();
                 
