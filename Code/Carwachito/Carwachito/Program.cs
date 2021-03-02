@@ -25,7 +25,7 @@ namespace Carwachito
             {
 
                 Console.WriteLine("Bienvenido al Carwachito...\n¿Es cliente o empleado?");
-                Console.WriteLine("1. Cliente \n2.Empleado");
+                Console.WriteLine("1. Cliente \n2. Empleado");
                 res = Console.ReadLine();
                 if (res[0] == '1')
                 {
@@ -44,12 +44,30 @@ namespace Carwachito
 
                     pros.listaLavado.Add(client);
                     pros.IniciarProceso(client);
+
                     turno++;
                     Console.WriteLine("El total del servicio es de $" + pros.costoLavado);
 
-                    clerk.CobrarLavado(client);
+                    do
+                    {
+                        clerk.CobrarLavado(client);
 
-                    valet.Entregar(client);
+                        if (client.dinero > pros.costoLavado)
+                        {
+                            Console.WriteLine("Se da $" + (client.dinero - pros.costoLavado) + " de feria");
+
+                        }
+                        else if (client.dinero < pros.costoLavado)
+                        {
+                            Console.WriteLine("Faltan $" + (pros.costoLavado - client.dinero) + " de pagar");
+                        }
+                        else
+                        {
+                            valet.Entregar(client);
+                            lop = false;
+                        }
+                    } while (lop);
+                    lop = true;
                 }
                 else if (res[0] == '2')
                 {
@@ -70,6 +88,7 @@ namespace Carwachito
                     Console.WriteLine("Opcion no valida");
                     lop = true;
                 }
+
 
 
                 Console.WriteLine("presione X para salir");

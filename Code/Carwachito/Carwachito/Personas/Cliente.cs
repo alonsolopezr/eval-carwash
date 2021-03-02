@@ -8,9 +8,11 @@ namespace Carwachito.Personas
 {
     public class Cliente : Persona
     {
+        public double dinero;
         public bool Pagar( double efectivo) {
 
-            Console.WriteLine("cliente paga ");
+            Console.WriteLine("cliente paga $"+efectivo);
+            dinero = efectivo;
             return true;
         }
         public Cliente() { 
