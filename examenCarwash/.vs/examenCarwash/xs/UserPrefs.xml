@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{F3530B47-C4F6-4B65-837F-51CFF0B41BD4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="examenCarwash/Carwash/Proceso.cs">
+    <Files>
+      <File FileName="examenCarwash/Program.cs" Line="1" Column="1" />
+      <File FileName="examenCarwash/Personas/Persona.cs" Line="10" Column="26" />
+      <File FileName="examenCarwash/Personas/Cliente.cs" Line="13" Column="1" />
+      <File FileName="examenCarwash/Personas/Cajero.cs" Line="13" Column="26" />
+      <File FileName="examenCarwash/Carwash/Proceso.cs" Line="34" Column="27" />
+      <File FileName="examenCarwash/Carwash/EtapaLavado.cs" Line="11" Column="2" />
+      <File FileName="examenCarwash/Carwash/Cobrar.cs" Line="7" Column="1" />
+      <File FileName="examenCarwash/Carwash/LavadoInicial.cs" Line="4" Column="9" />
+      <File FileName="examenCarwash/Carwash/AplicadorShampoo.cs" />
+      <File FileName="examenCarwash/Carwash/Cepillado.cs" />
+      <File FileName="examenCarwash/Carwash/Secado.cs" />
+      <File FileName="examenCarwash/Carwash/EntregaCarro.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="examenCarwash" expanded="True">
+            <Node name="examenCarwash" expanded="True">
+              <Node name="Carwash" expanded="True">
+                <Node name="Proceso.cs" selected="True" />
+              </Node>
+              <Node name="Personas" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.examenCarwash FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
